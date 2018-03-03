@@ -1,6 +1,6 @@
 package proxy;
 
-public class XiMenQing {
+public class XiMenQingMain {
     public static void main(String[] args) {
         // 把王婆叫出来
         WangPo wangPo = new WangPo();
