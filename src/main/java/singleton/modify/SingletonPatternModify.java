@@ -1,4 +1,4 @@
-package singleton3;
+package singleton.modify;
 
 /**
  * 通用单例模式

@@ -1,4 +1,4 @@
-package singleton3;
+package singleton.modify;
 
 public class SingletonPattern {
     private static SingletonPattern singletonPattern = null;
