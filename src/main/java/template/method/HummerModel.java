@@ -5,7 +5,9 @@ public abstract class HummerModel {
     /*
      * 首先，这个模型要能够被发动起来，别管是手摇发动，还是电力发动，反正
      * 是要能够发动起来，那这个实现要在实现类里了
-     *
+     */
+
+    /**
      * 子类实现的方法叫：抽象方法
      */
     protected abstract void start();
@@ -22,7 +24,7 @@ public abstract class HummerModel {
     //那模型应该会跑吧，别管是人推的，还是电力驱动，总之要会跑
 
     /**
-     * 父类实现的方法叫：具体方法
+     * 抽象类实现的方法叫：具体方法
      */
     final public void run() {
         //先发动汽车
