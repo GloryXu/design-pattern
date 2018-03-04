@@ -5,7 +5,7 @@ import factory.method.Human;
 import factory.method.WhiteHuman;
 import factory.method.YellowHuman;
 
-public class NvWa {
+public class NvWaMain {
     public static void main(String[] args) {
         System.out.println("造出的第一批人是这样的：白人");
         Human whiteHuman = HumanFactory.createHuman(WhiteHuman.class);
