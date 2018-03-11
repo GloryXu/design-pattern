@@ -1,4 +1,4 @@
-package chapter08.adapter;
+package chapter08.adapter.in;
 
 public interface IUserInfo {
     String getUserName();
