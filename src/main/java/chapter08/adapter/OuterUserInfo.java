@@ -1,5 +1,8 @@
 package chapter08.adapter;
 
+import chapter08.adapter.in.IUserInfo;
+import chapter08.adapter.out.OuterUser;
+
 import java.util.Map;
 
 /**

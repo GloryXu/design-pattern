@@ -1,4 +1,4 @@
-package chapter08.adapter;
+package chapter08.adapter.out;
 
 import java.util.HashMap;
 import java.util.Map;
