@@ -1,4 +1,4 @@
-package chapter11.bridge.advance;
+package chapter11.bridge;
 
 import chapter11.bridge.abstraction.HouseCorp;
 import chapter11.bridge.abstraction.ShanZhaiCorp;
