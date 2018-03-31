@@ -3,7 +3,7 @@ package chapter13.decorator.advance;
 import chapter13.decorator.FouthGradeSchoolReport;
 import chapter13.decorator.SchoolReport;
 
-public class Father {
+public class FatherMain {
     public static void main(String[] args) {
         //成绩单拿过来
         SchoolReport sr;
