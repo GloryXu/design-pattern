@@ -1,7 +1,8 @@
 package other.observe.newjava9;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+        // 发布
         OneShotPublisher oneShotPublisher = new OneShotPublisher();
 
         SampleConsumer sampleConsumer = new SampleConsumer();
@@ -10,5 +11,7 @@ public class Main {
 
         UnboundedSubscriber<Boolean> unboundedSubscriber = new UnboundedSubscriber<>();
         unboundedSubscriber.onSubscribe(sampleSubscriber.subscription);
+
+        Thread.sleep(10000);
     }
 }

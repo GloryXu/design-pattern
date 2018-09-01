@@ -35,5 +35,6 @@ public class SampleSubscriber<T> implements Flow.Subscriber<T> {
 
     @Override
     public void onComplete() {
+        System.out.println("SampleSubscriber onComplete!");
     }
 }
