@@ -1,5 +1,10 @@
-package other.singleton;
+package chapter03.singleton;
 
+/**
+ *
+ * @author xuguangrong
+ * @date 2019-01-04 11:34
+ */
 public class SerSingleton implements java.io.Serializable {
     String name;
 
@@ -19,7 +24,7 @@ public class SerSingleton implements java.io.Serializable {
 
     /**
      * 删除以下代码，则test测试失败
-     * @see other.singleton.SerSingletonTest
+     *
      * @return
      */
     private Object readResolve(){
